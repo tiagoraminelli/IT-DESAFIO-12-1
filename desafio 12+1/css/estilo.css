@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffe3e3;
+    font-family: 'Playfair Display', serif;
+}
+
+nav{
+    width: 100%;
+    background-color: #93b5c6;
+    color: white;
+    position: fixed; top: 0;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display:inline-block;
+    padding: 5px;
+    transition: all 1s;
+}
+nav ul li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: #e4d8dc;
+    color: #000;
+}
+nav ul li a:hover{
+     color: #000;
+}
+
+section{
+    padding-top: 15px;
+    width:95%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+p{
+    margin: 16px 0;
+    line-height: 150%;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #c9ccd5  ;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+header{
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/pexels-olia-danilevich-4974914.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.placa{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    background-color: rgba(95, 162, 218, 0.397);
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    margin: 20px 0 auto;
+}
+
+.texto{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    background-color: rgba(170, 151, 111, 0.336);
+    text-shadow: 5px 5px 20px cornsilk;
+    }
+
+
+.otro{
+    font-size: 45px;
+    color: #fff;
+    margin: 40px auto;
+}
+
+
+.subir{
+    width: 90px;
+    height: 35px;
+    background-color: #93b5c6;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 55px;
+    right: 15px;
+    z-index: 101;
+    transition: all 0.5s;
+}
+
+.contenedor{
+    width: 100%;
+    height: 500px;
+}
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.box{
+    margin: 10px;
+    width: 300px;
+    height: 490px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 600ms;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    animation: all 1s;
+}
+.box h1{
+    color: #fff;
+    padding: 30px;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 25px;
+    background: rgba(27, 27, 27, 0.6);
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+
+}
+.box:hover{
+    margin-bottom: -20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.7);
+
+}
+.uno{
+    background: url("/imagenes/pexels-christina-morillo-1181467.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.dos{
+    background: url("/imagenes/pexels-designecologist-1779487.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.tres{
+    background: url("/imagenes/pexels-thisisengineering-3861958.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cuatro{
+    background: url("/imagenes/pexels-tranmautritam-69432.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.subir p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    text-shadow: 0 0 5px #000;
+}
+.subir:hover{
+    width: 100px;
+    background-color:#fff;
+    color:#93b5c6;
+}
+.subir p:hover{
+    color: #93b5c6;
+    text-shadow: 0 0 5px #fff;
+}
